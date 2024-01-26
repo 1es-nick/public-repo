@@ -2,7 +2,7 @@ name: Hello World
 on:
   workflow_dispatch:
 jobs:
-  build:
+  do-things:
     runs-on: [self-hosted, 1ES.Pool=lightning-mcking]
     steps:
       - uses: actions/checkout@v3
