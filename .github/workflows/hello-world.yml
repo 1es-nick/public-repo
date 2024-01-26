@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: 1ES.POOL=lightning-mcking
+    runs-on: 1ES.Pool=lightning-mcking
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
